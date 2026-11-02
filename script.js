@@ -53,7 +53,7 @@ fetch('https://fakestoreapi.com/products')
         '<h2>#' + product.id + ' - ' + slicedTitle + '</h2>' +
         
         // Requirement 13 & 23: Price inside <p>
-        '<p class="price">\$' + product.price + '</p>' +
+        '<p class="price">\Rs : ' + product.price + '</p>' +
         
         // Requirement 7 & 29: Limited description
         '<p class="description">' + slicedDescription + '...</p>' +
